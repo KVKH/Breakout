@@ -11,13 +11,17 @@ using Microsoft.Xna.Framework.Media;
 
 namespace Breakout
 {
-    /// <summary>
-    /// This is the main type for your game
-    /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        GraphicsDevice device;
+        Texture2D backgroundTexture;
+        Texture2D ammosprite;
+        Vector2 ammoposition = Vector2.Zero;
+        Vector2 ammospeed = new Vector2(150, 150);
+        int screenWidth;
+        int screenHeight;
 
         public Game1()
         {
@@ -25,67 +29,76 @@ namespace Breakout
             Content.RootDirectory = "Content";
         }
 
-        /// <summary>
-        /// Allows the game to perform any initialization it needs to before starting to run.
-        /// This is where it can query for any required services and load any non-graphic
-        /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
-        /// </summary>
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.PreferredBackBufferHeight = 1080;
+            graphics.IsFullScreen = false;
+            graphics.ApplyChanges();
+            Window.Title = "Breakout HD";
 
             base.Initialize();
         }
 
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            device = graphics.GraphicsDevice;
 
-            // TODO: use this.Content to load your game content here
+
+            backgroundTexture = Content.Load<Texture2D>("background");
+            screenWidth = device.PresentationParameters.BackBufferWidth;
+            screenHeight = device.PresentationParameters.BackBufferHeight;
+            ammosprite = Content.Load<Texture2D>("ammo");
         }
 
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// all content.
-        /// </summary>
         protected override void UnloadContent()
         {
-            // TODO: Unload any non ContentManager content here
+
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
-            // TODO: Add your update logic here
+            ammoposition += ammospeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            
+            int maxX = GraphicsDevice.Viewport.Width - ammosprite.Width;
+            int maxY = GraphicsDevice.Viewport.Height - ammosprite.Height;
+
+            if (ammoposition.X > maxX || ammoposition.X < 0)
+                ammospeed.X *= -1;
+            if (ammoposition.Y > maxY || ammoposition.Y < 0)
+                ammospeed.Y *= -1;
 
             base.Update(gameTime);
         }
 
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            DrawBG();
+            spriteBatch.Draw(ammosprite, ammoposition, Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
+        private void DrawBG()
+        {
+            Rectangle screenRectangle = new Rectangle(0, 0, screenWidth, screenHeight);
+            spriteBatch.Draw(backgroundTexture, screenRectangle, Color.White);
+        }
     }
 }
+
+/* Tutorials:
+ * http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series2D/Drawing_fullscreen_images.php
+ * http://www.harding.edu/fmccown/xna/pong/
+ * http://xnagpa.net/xna4beginner.php
+ * 
+ * Remeksen Drive:
+ * https://drive.google.com/folderview?id=0BzImvAoTbOrdOGJlNzFSSTktWk0&usp=sharing
+*/
