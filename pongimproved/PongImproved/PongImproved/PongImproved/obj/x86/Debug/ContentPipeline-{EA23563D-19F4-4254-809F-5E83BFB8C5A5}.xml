@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Images\basketball.png</Source>
+      <Name>Images\basketball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\fmccown\documents\visual studio 2010\Projects\PongImproved\PongImproved\PongImproved\bin\x86\Debug\Content\Images\basketball.xnb</Output>
+      <Time>2012-01-02T14:05:41.3428304-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\hand.png</Source>
+      <Name>Images\hand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\fmccown\documents\visual studio 2010\Projects\PongImproved\PongImproved\PongImproved\bin\x86\Debug\Content\Images\hand.xnb</Output>
+      <Time>2012-01-02T14:05:41.3678329-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\crash.wav</Source>
+      <Name>Audio\crash</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\fmccown\documents\visual studio 2010\Projects\PongImproved\PongImproved\PongImproved\bin\x86\Debug\Content\Audio\crash.xnb</Output>
+      <Time>2012-01-02T14:05:52.9909951-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\swish.wav</Source>
+      <Name>Audio\swish</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\fmccown\documents\visual studio 2010\Projects\PongImproved\PongImproved\PongImproved\bin\x86\Debug\Content\Audio\swish.xnb</Output>
+      <Time>2012-01-02T14:05:52.9959956-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{EA23563D-19F4-4254-809F-5E83BFB8C5A5}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\fmccown\Documents\Visual Studio 2010\Projects\PongImproved\PongImproved\PongImprovedContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\fmccown\Documents\Visual Studio 2010\Projects\PongImproved\PongImproved\PongImproved\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\fmccown\Documents\Visual Studio 2010\Projects\PongImproved\PongImproved\PongImproved\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\fmccown\Documents\Visual Studio 2010\Projects\PongImproved\PongImproved\PongImproved\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-11-10T09:15:52.8607907-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
