@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2016-02-17T16:29:29.0243641+02:00</Time>
+      <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2016-03-02T13:36:09.5623666+02:00</Time>
     </Item>
     <Item>
       <Source>ammo.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\ammo.xnb</Output>
-      <Time>2016-02-17T16:22:04.5193641+02:00</Time>
+      <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\ammo.xnb</Output>
+      <Time>2016-03-02T13:36:09.5553666+02:00</Time>
     </Item>
     <Item>
       <Source>pad.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\pad.xnb</Output>
-      <Time>2016-02-17T16:22:26.9523641+02:00</Time>
+      <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\pad.xnb</Output>
+      <Time>2016-03-02T13:36:09.5763666+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -35,10 +35,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\BreakoutContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\kasperhjo\Desktop\Breakout\BreakoutContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

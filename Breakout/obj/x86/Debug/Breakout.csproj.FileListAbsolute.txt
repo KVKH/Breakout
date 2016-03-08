@@ -7,3 +7,12 @@ C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\obj\x86\Debug\Breakout.pdb
 C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\background.xnb
 C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\ammo.xnb
 C:\Users\kasperhjo\Desktop\Breakout\Breakout\Breakout\bin\x86\Debug\Content\pad.xnb
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\background.xnb
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\ammo.xnb
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\pad.xnb
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Breakout.exe
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Breakout.pdb
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\obj\x86\Debug\Breakout.csprojResolveAssemblyReference.cache
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\obj\x86\Debug\Breakout.exe
+C:\Users\kasperhjo\Desktop\Breakout\Breakout\obj\x86\Debug\Breakout.pdb
