@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2016-03-02T13:36:09.5623666+02:00</Time>
+      <Time>2016-03-10T14:36:51.0590414+02:00</Time>
     </Item>
     <Item>
       <Source>ammo.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\ammo.xnb</Output>
-      <Time>2016-03-02T13:36:09.5553666+02:00</Time>
+      <Time>2016-03-10T14:36:51.0330414+02:00</Time>
     </Item>
     <Item>
       <Source>pad.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\kasperhjo\Desktop\Breakout\Breakout\bin\x86\Debug\Content\pad.xnb</Output>
-      <Time>2016-03-02T13:36:09.5763666+02:00</Time>
+      <Time>2016-03-10T14:36:51.0800414+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

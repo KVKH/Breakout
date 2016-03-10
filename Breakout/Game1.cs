@@ -35,12 +35,17 @@ namespace Breakout
         int bricksWide = 10;
         int bricksHigh = 5;
         Texture2D brickImage;
-        //Brick[,] bricks; WTF?
+        //Brick[,] bricks;
+
+        Rectangle screenrekt;
+
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            screenrekt = new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
         }
 
         protected override void Initialize()
@@ -86,6 +91,16 @@ namespace Breakout
             {
                 graphics.IsFullScreen = !graphics.IsFullScreen;
                 graphics.ApplyChanges();
+            }
+
+
+            if(paddlePosition.X < 0)
+            {
+                paddlePosition.X = 0;
+            }
+            if(paddlePosition.X + paddleSprite.Width > screenrekt.Width)
+            {
+                paddlePosition.X = screenrekt.Width - paddleSprite.Width;
             }
 
             ammoposition += ammospeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -167,6 +182,7 @@ namespace Breakout
         {
             Rectangle screenRectangle = new Rectangle(0, 0, screenWidth, screenHeight);
             spriteBatch.Draw(backgroundTexture, screenRectangle, Color.White);
+
         }
 
         //Brick
